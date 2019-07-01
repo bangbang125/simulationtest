@@ -2,7 +2,9 @@
 #include <omp.h>
 #include <time.h>
 
+
 #define INTERVALS 1000000000000
+
 int main() {
 
 double start, stop;
