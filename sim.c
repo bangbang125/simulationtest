@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <omp.h>
 #include <time.h>
+
 #define INTERVALS 10000000000
 int main() {
 
