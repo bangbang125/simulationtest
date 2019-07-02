@@ -16,7 +16,7 @@ pi = 0.0;
 
 start = omp_get_wtime();
 
-
+//b
 #pragma omp parallel for reduction(+:pi)
 for(i = 0; i < INTERVALS; i++)  {
 x = n_1 *((double)i - 0.5);
