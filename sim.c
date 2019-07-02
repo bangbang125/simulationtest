@@ -6,7 +6,7 @@
 #define INTERVALS 1000000000000
 
 int main() {
-
+//c
 double start, stop;
 long int i, j;
 double n_1, x, pi;
