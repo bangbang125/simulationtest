@@ -13,12 +13,10 @@ double n_1, x, pi;
 
 n_1 = 1.0 / INTERVALS;
 pi = 0.0;
-
+//アイウエオ
 start = omp_get_wtime();
-
-
-//b
 //a
+//b
 #pragma omp parallel for reduction(+:pi)
 for(i = 0; i < INTERVALS; i++)  {
 x = n_1 *((double)i - 0.5);
